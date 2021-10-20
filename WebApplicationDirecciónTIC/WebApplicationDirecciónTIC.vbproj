@@ -185,6 +185,10 @@
     <Compile Include="Context\Solicitud.vb">
       <DependentUpon>ModeloMVCDatos.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\EquipoesController.vb" />
+    <Compile Include="Controllers\EstadoesController.vb" />
+    <Compile Include="Controllers\PersonasController.vb" />
+    <Compile Include="Controllers\SolicitudsController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -261,6 +265,26 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Views\Personas\Create.vbhtml" />
+    <Content Include="Views\Personas\Delete.vbhtml" />
+    <Content Include="Views\Personas\Details.vbhtml" />
+    <Content Include="Views\Personas\Edit.vbhtml" />
+    <Content Include="Views\Personas\Index.vbhtml" />
+    <Content Include="Views\Solicituds\Create.vbhtml" />
+    <Content Include="Views\Solicituds\Delete.vbhtml" />
+    <Content Include="Views\Solicituds\Details.vbhtml" />
+    <Content Include="Views\Solicituds\Edit.vbhtml" />
+    <Content Include="Views\Solicituds\Index.vbhtml" />
+    <Content Include="Views\Equipoes\Create.vbhtml" />
+    <Content Include="Views\Equipoes\Delete.vbhtml" />
+    <Content Include="Views\Equipoes\Details.vbhtml" />
+    <Content Include="Views\Equipoes\Edit.vbhtml" />
+    <Content Include="Views\Equipoes\Index.vbhtml" />
+    <Content Include="Views\Estadoes\Create.vbhtml" />
+    <Content Include="Views\Estadoes\Delete.vbhtml" />
+    <Content Include="Views\Estadoes\Details.vbhtml" />
+    <Content Include="Views\Estadoes\Edit.vbhtml" />
+    <Content Include="Views\Estadoes\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
