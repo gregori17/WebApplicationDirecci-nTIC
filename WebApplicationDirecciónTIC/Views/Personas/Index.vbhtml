@@ -37,33 +37,38 @@ End Code
 
 @For Each item In Model
     @<tr>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.Nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.Apellido)
-        </td>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.FechaNacimiento)
-        </td>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.Pasaporte)
-        </td>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.Direccion)
-        </td>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.Sexo)
-        </td>
-        <td>
-            @Html.DisplayFor(Function(modelItem) item.Foto)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", New With {.id = item.Id }) |
-            @Html.ActionLink("Details", "Details", New With {.id = item.Id }) |
-            @Html.ActionLink("Delete", "Delete", New With {.id = item.Id })
-        </td>
-    </tr>
+    <td>
+        @Html.DisplayFor(Function(modelItem) item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(Function(modelItem) item.Apellido)
+    </td>
+    <td>
+        @Html.DisplayFor(Function(modelItem) item.FechaNacimiento)
+    </td>
+    <td>
+        @Html.DisplayFor(Function(modelItem) item.Pasaporte)
+    </td>
+    <td>
+        @Html.DisplayFor(Function(modelItem) item.Direccion)
+    </td>
+    <td>
+        @Html.DisplayFor(Function(modelItem) item.Sexo)
+    </td>
+    <td>
+        <img src="@Html.DisplayFor(Function(modelItem) item.Foto)" height="52" width="52" />
+        
+    </td>
+
+    @*<td>
+        @Html.DisplayFor(Function(modelItem) item.Foto)
+    </td>*@
+    <td>
+        @Html.ActionLink("Edit", "Edit", New With {.id = item.Id}) |
+        @Html.ActionLink("Details", "Details", New With {.id = item.Id}) |
+        @Html.ActionLink("Delete", "Delete", New With {.id = item.Id})
+    </td>
+</tr>
 Next
 
 </table>

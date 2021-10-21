@@ -185,9 +185,13 @@
     <Compile Include="Context\Solicitud.vb">
       <DependentUpon>ModeloMVCDatos.tt</DependentUpon>
     </Compile>
+    <Compile Include="Context\sysdiagram.vb">
+      <DependentUpon>ModeloMVCDatos.tt</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\EquipoesController.vb" />
     <Compile Include="Controllers\EstadoesController.vb" />
     <Compile Include="Controllers\PersonasController.vb" />
+    <Compile Include="Controllers\Solicituds1Controller.vb" />
     <Compile Include="Controllers\SolicitudsController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -285,6 +289,13 @@
     <Content Include="Views\Estadoes\Details.vbhtml" />
     <Content Include="Views\Estadoes\Edit.vbhtml" />
     <Content Include="Views\Estadoes\Index.vbhtml" />
+    <Content Include="Views\Solicituds1\Create.vbhtml" />
+    <Content Include="Views\Solicituds1\Delete.vbhtml" />
+    <Content Include="Views\Solicituds1\Details.vbhtml" />
+    <Content Include="Views\Solicituds1\Edit.vbhtml" />
+    <Content Include="Views\Solicituds1\Index.vbhtml" />
+    <Content Include="Views\Shared\Login.vbhtml" />
+    <Content Include="Views\Shared\index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

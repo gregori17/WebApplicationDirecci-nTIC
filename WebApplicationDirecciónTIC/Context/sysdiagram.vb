@@ -12,13 +12,12 @@ Imports System.Collections.Generic
 
 Namespace WebApplicationDirecciónTIC
 
-    Partial Public Class Solicitud
-        Public Property Id As Integer
-        Public Property NombreEstado As String
-        Public Property FechaCreación As Nullable(Of Date)
-        Public Property PersonaId As Nullable(Of Integer)
-    
-        Public Overridable Property Persona As Persona
+    Partial Public Class sysdiagram
+        Public Property name As String
+        Public Property principal_id As Integer
+        Public Property diagram_id As Integer
+        Public Property version As Nullable(Of Integer)
+        Public Property definition As Byte()
     
     End Class
 

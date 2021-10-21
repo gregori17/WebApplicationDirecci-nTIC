@@ -8,9 +8,11 @@
         <EntityTypeShape EntityType="WebApplicationDireccinTICModel.Equipo" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="WebApplicationDireccinTICModel.Estado" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="WebApplicationDireccinTICModel.Persona" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="WebApplicationDireccinTICModel.Solicitud" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebApplicationDireccinTICModel.Solicitud" Width="1.5" PointX="0.625" PointY="3.375" IsExpanded="true" />
         <AssociationConnector Association="WebApplicationDireccinTICModel.FK_Equipo_Estados" ManuallyRouted="false" />
         <AssociationConnector Association="WebApplicationDireccinTICModel.FK_Equipo_Persona" ManuallyRouted="false" />
+        <AssociationConnector Association="WebApplicationDireccinTICModel.FK_Solicitud_Persona" />
+        <EntityTypeShape EntityType="WebApplicationDireccinTICModel.sysdiagram" Width="1.5" PointX="3.375" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

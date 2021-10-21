@@ -23,6 +23,7 @@ Namespace WebApplicationDirecciónTIC
         Public Property Foto As String
     
         Public Overridable Property Equipoes As ICollection(Of Equipo) = New HashSet(Of Equipo)
+        Public Overridable Property Solicituds As ICollection(Of Solicitud) = New HashSet(Of Solicitud)
     
     End Class
 

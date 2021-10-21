@@ -63,7 +63,8 @@ End Code
         </dt>
 
         <dd>
-            @Html.DisplayFor(Function(model) model.Foto)
+
+            <img src="@Html.DisplayFor(Function(model) model.Foto)" height="102" width="102" />
         </dd>
 
     </dl>

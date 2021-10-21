@@ -28,6 +28,7 @@ Namespace WebApplicationDirecciónTIC
         Public Overridable Property Estados() As DbSet(Of Estado)
         Public Overridable Property Personas() As DbSet(Of Persona)
         Public Overridable Property Solicituds() As DbSet(Of Solicitud)
+        Public Overridable Property sysdiagrams() As DbSet(Of sysdiagram)
     
     End Class
 
