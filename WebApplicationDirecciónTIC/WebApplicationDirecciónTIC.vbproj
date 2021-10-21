@@ -274,6 +274,7 @@
     <Content Include="Views\Personas\Details.vbhtml" />
     <Content Include="Views\Personas\Edit.vbhtml" />
     <Content Include="Views\Personas\Index.vbhtml" />
+    <Content Include="Views\Shared\index.html" />
     <Content Include="Views\Solicituds\Create.vbhtml" />
     <Content Include="Views\Solicituds\Delete.vbhtml" />
     <Content Include="Views\Solicituds\Details.vbhtml" />
@@ -294,7 +295,6 @@
     <Content Include="Views\Solicituds1\Details.vbhtml" />
     <Content Include="Views\Solicituds1\Edit.vbhtml" />
     <Content Include="Views\Solicituds1\Index.vbhtml" />
-    <Content Include="Views\Shared\Login.vbhtml" />
     <Content Include="Views\Shared\index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
